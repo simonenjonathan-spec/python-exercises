@@ -19,7 +19,7 @@ def test_cpython_caches_small_integers_so_they_share_identity():
     Om a och b båda tilldelas 42, pekar de på exakt samma objekt?"""
     a = 42
     b = 42
-    assert (a is b) == ____
+    assert (a is b) == True
 
 
 # === Tilldelning och referenser ===
