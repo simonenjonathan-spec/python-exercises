@@ -48,7 +48,7 @@ def test_iterating_dict_yields_keys():
     """Iteration över en dict ger nycklarna — inte paren och inte värdena.
     Vad innehåller list(d) för d = {"a": 1, "b": 2}?"""
     d = {"a": 1, "b": 2}
-    assert list(d) == ____
+    assert list(d) == ["a", "b"]
 
 
 # === Mutation och merge ===
