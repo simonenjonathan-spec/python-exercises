@@ -40,7 +40,7 @@ def test_pop_without_argument_removes_and_returns_last_element():
     """pop() utan argument tar bort och returnerar sista elementet.
     Vad returnerar pop() på [1, 2, 3]?"""
     lst = [1, 2, 3]
-    assert lst.pop() == ____
+    assert lst.pop() == 3
 
 
 def test_sort_mutates_the_list_in_place():
