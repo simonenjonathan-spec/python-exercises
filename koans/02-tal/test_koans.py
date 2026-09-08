@@ -47,7 +47,7 @@ def test_int_truncates_toward_zero():
 
 def test_abs_returns_the_absolute_value():
     """abs() returnerar absolutbeloppet — aldrig negativt. Vad returnerar abs(-7.3)?"""
-    assert abs(-7.3) == ____
+    assert abs(-7.3) == 7.3
 
 
 def test_divmod_returns_a_tuple_of_quotient_and_remainder():
