@@ -58,7 +58,7 @@ def test_tuples_support_concatenation():
 
 def test_len_works_on_tuples():
     """len() fungerar på alla sekvenser. Vad returnerar len((1, 2, 3))?"""
-    assert len((1, 2, 3)) == ____
+    assert len((1, 2, 3)) == 3
 
 
 def test_tuple_with_immutable_elements_can_be_dict_key():
