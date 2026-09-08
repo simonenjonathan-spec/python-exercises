@@ -22,7 +22,7 @@ def test_plus_creates_new_list_and_leaves_original_intact():
     Vad är längden på lst efter lst2 = lst + [3]?"""
     lst = [1, 2]
     lst2 = lst + [3]
-    assert len(lst) == ____
+    assert len(lst) == 2
 
 
 def test_extend_mutates_the_list_in_place():
