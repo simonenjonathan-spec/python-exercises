@@ -18,7 +18,7 @@ def test_regular_division_always_returns_a_float():
 
 def test_double_star_is_the_exponentiation_operator():
     """** är potensoperatorn. Vad är värdet av 2 ** 10?"""
-    assert 2 ** 10 == ____
+    assert 2 ** 10 == 1024
 
 
 # === Floating-point och avrundning ===
