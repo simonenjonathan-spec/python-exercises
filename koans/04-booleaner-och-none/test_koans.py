@@ -38,7 +38,7 @@ def test_or_returns_first_truthy_operand():
 def test_or_returns_right_operand_when_left_is_falsy():
     """Om den vänstra operanden är falsy returnerar or den högra operanden.
     Vad returnerar "" or "standard"?"""
-    assert ("" or "standard") == ____
+    assert ("" or "standard") == "standard"
 
 
 def test_and_short_circuits_on_first_falsy():
