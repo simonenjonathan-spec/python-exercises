@@ -6,7 +6,7 @@ from sentinel import ____
 
 def test_type_of_integer_is_int():
     """Vilken inbyggd typ representerar heltal i Python?"""
-    assert type(42) == ____
+    assert type(42) == int
 
 
 def test_integers_and_floats_have_different_types():
