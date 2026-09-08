@@ -49,7 +49,7 @@ def test_slice_creates_a_new_list_object():
 def test_none_has_its_own_dedicated_type():
     """None är inte av typen object eller bool utan har ett eget typnamn.
     Vad heter typen?"""
-    assert type(None).__name__ == ____
+    assert type(None).__name__ == "NoneType"
 
 
 def test_tuple_unpacking_assigns_values_left_to_right():
