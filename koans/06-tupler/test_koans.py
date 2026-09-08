@@ -6,7 +6,7 @@ from sentinel import ____
 
 def test_tuple_type_is_tuple():
     """Vad är typen av (1, 2, 3)?"""
-    assert type((1, 2, 3)) == ____
+    assert type((1, 2, 3)) == tuple
 
 
 def test_tuples_raise_typeerror_on_item_assignment():
