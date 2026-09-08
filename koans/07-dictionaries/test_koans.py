@@ -83,4 +83,4 @@ def test_dict_comprehension_transforms_values():
     """Dict comprehension bygger en ny dict med transformerade värden.
     Vad är result["a"] efter {k: v*2 for k, v in {"a": 1, "b": 2}.items()}?"""
     result = {k: v * 2 for k, v in {"a": 1, "b": 2}.items()}
-    assert result["a"] == ____
+    assert result["a"] == 2
