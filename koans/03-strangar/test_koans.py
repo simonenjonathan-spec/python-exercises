@@ -66,7 +66,7 @@ def test_string_methods_return_new_strings_not_modify_original():
 
 def test_string_multiplication_repeats_content():
     """* på en sträng upprepar den angivet antal gånger. Vad returnerar "hej" * 3?"""
-    assert "hej" * 3 == ____
+    assert "hej" * 3 == "hejhejhej"
 
 
 # === Formatering ===
