@@ -23,7 +23,7 @@ def test_negative_index_counts_from_the_right():
 def test_slice_extracts_a_substring():
     """s[start:stopp] ger tecknen från start upp till men inte inklusive stopp.
     Vad returnerar "python"[2:5]?"""
-    assert "python"[2:5] == ____
+    assert "python"[2:5] == "tho"
 
 
 def test_strings_raise_typeerror_on_item_assignment():
