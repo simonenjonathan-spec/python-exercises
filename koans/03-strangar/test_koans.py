@@ -11,7 +11,7 @@ def test_len_counts_characters():
 
 def test_index_zero_is_the_first_character():
     """Index 0 ger det första tecknet. Vilket tecken är "python"[0]?"""
-    assert "python"[0] == ____
+    assert "python"[0] == "p"
 
 
 def test_negative_index_counts_from_the_right():
