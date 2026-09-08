@@ -23,7 +23,7 @@ def test_zero_float_is_falsy():
 def test_none_is_falsy():
     """None representerar frånvaron av ett värde och är alltid falsy.
     Är None sant eller falskt?"""
-    assert bool(None) == ____
+    assert bool(None) == False
 
 
 # === and och or returnerar operander, inte booleans ===
