@@ -44,7 +44,7 @@ def test_or_returns_right_operand_when_left_is_falsy():
 def test_and_short_circuits_on_first_falsy():
     """and returnerar den första falsy operanden — "standard" evalueras aldrig.
     Vad returnerar None and "hej"?"""
-    assert (None and "hej") == ____
+    assert (None and "hej") == None
 
 
 # === None-jämförelser ===
