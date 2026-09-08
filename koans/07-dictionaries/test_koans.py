@@ -34,7 +34,7 @@ def test_keys_returns_a_dict_keys_view_type():
     """d.keys() returnerar en vytyp, inte en lista.
     Vad är typen av d.keys()?"""
     d = {"a": 1}
-    assert type(d.keys()) == ____
+    assert type(d.keys()) == type({}.keys())
 
 
 def test_items_elements_are_tuples():
