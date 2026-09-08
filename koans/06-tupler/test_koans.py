@@ -21,7 +21,7 @@ def test_tuples_raise_typeerror_on_item_assignment():
 def test_single_element_tuple_needs_trailing_comma():
     """Det är kommatecknet som skapar en tupel — inte parentesen.
     Vad är typen av (42,)?"""
-    assert type((42,)) == ____
+    assert type((42,)) == tuple
 
 
 def test_parentheses_without_comma_is_not_a_tuple():
