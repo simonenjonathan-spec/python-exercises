@@ -44,7 +44,7 @@ def test_pythonic_swap_without_temporary_variable():
     Vad är värdet av a efter a, b = b, a när a=1 och b=2?"""
     a, b = 1, 2
     a, b = b, a
-    assert a == ____
+    assert a == 2
 
 
 # === Konkatenering, längd och hashbarhet ===
