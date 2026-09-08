@@ -33,7 +33,7 @@ def test_floating_point_arithmetic_is_not_exact():
 def test_round_uses_bankers_rounding():
     """Python använder bankmannavrundning: vid exakt halvvägs avrundas till närmaste jämna tal.
     Vad returnerar round(2.5)?"""
-    assert round(2.5) == ____
+    assert round(2.5) == 2
 
 
 def test_int_truncates_toward_zero():
