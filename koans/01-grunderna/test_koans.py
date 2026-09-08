@@ -56,7 +56,7 @@ def test_tuple_unpacking_assigns_values_left_to_right():
     """x, y, z = 1, 2, 3 tilldelar positionellt från vänster till höger.
     Vilket värde får y?"""
     x, y, z = 1, 2, 3
-    assert y == ____
+    assert y == 2
 
 
 def test_chained_assignment_binds_all_names_to_one_object():
