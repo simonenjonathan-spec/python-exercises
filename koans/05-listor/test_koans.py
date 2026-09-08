@@ -84,7 +84,7 @@ def test_index_method_returns_position_of_element():
     """index() returnerar positionen för ett elements första förekomst.
     Vad returnerar lst.index(20) om lst = [10, 20, 30]?"""
     lst = [10, 20, 30]
-    assert lst.index(20) == ____
+    assert lst.index(20) == 1
 
 
 def test_count_method_returns_number_of_occurrences():
