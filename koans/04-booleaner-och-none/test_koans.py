@@ -17,7 +17,7 @@ def test_nonempty_list_is_truthy_even_with_falsy_element():
 
 def test_zero_float_is_falsy():
     """Noll är falsy oavsett taltyp. Är 0.0 sant eller falskt?"""
-    assert bool(0.0) == ____
+    assert bool(0.0) == False
 
 
 def test_none_is_falsy():
