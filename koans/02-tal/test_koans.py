@@ -27,7 +27,7 @@ def test_double_star_is_the_exponentiation_operator():
 def test_floating_point_arithmetic_is_not_exact():
     """Decimaltal representeras i binärt format och kan inte alltid representeras exakt.
     Är 0.1 + 0.2 == 0.3?"""
-    assert (0.1 + 0.2 == 0.3) == ____
+    assert (0.1 + 0.2 == 0.3) == False
 
 
 def test_round_uses_bankers_rounding():
