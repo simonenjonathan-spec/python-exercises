@@ -14,7 +14,7 @@ def test_tuples_raise_typeerror_on_item_assignment():
     Vilken exception kastar t[0] = 5 när t = (1, 2)?"""
     import pytest
     t = (1, 2)
-    with pytest.raises(____):
+    with pytest.raises(TypeError):
         t[0] = 5
 
 
