@@ -47,7 +47,7 @@ def test_strip_removes_surrounding_whitespace():
 def test_split_divides_string_at_separator():
     """split() delar en sträng vid avgränsningstecknet och returnerar en lista.
     Vad returnerar "a,b,c".split(",")?"""
-    assert "a,b,c".split(",") == ____
+    assert "a,b,c".split(",") == ['a', 'b', 'c']
 
 
 def test_join_concatenates_list_with_separator():
