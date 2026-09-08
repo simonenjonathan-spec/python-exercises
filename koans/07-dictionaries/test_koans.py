@@ -17,7 +17,7 @@ def test_get_returns_none_for_missing_key():
     """get() kastar ingen exception för saknade nycklar.
     Vad returnerar d.get("b") när "b" saknas?"""
     d = {"a": 1}
-    assert d.get("b") == ____
+    assert d.get("b") == None
 
 
 def test_get_with_default_returns_default_for_missing_key():
