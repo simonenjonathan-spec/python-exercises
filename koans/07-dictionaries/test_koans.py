@@ -24,7 +24,7 @@ def test_get_with_default_returns_default_for_missing_key():
     """get(nyckel, standard) returnerar standardvärdet om nyckeln saknas.
     Vad returnerar d.get("b", 0) när "b" saknas?"""
     d = {"a": 1}
-    assert d.get("b", 0) == ____
+    assert d.get("b", 0) == 0
 
 
 # === Vyer och iteration ===
