@@ -75,4 +75,4 @@ def test_string_multiplication_repeats_content():
 def test_f_string_supports_right_justification():
     """f-strängar accepterar formateringsspecifikationer: >10 höger-justerar i 10 tecken.
     Vad returnerar f"{'hej':>10}"?"""
-    assert f"{'hej':>10}" == ____
+    assert f"{'hej':>10}" == "       hej"
