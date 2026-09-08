@@ -77,7 +77,7 @@ def test_slice_assignment_replaces_elements_in_range():
     Vad innehåller lst = [1, 2, 3] efter lst[1:2] = [10, 20]?"""
     lst = [1, 2, 3]
     lst[1:2] = [10, 20]
-    assert lst == ____
+    assert lst == [1, 10, 20, 3]
 
 
 def test_index_method_returns_position_of_element():
