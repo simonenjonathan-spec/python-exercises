@@ -41,7 +41,7 @@ def test_items_elements_are_tuples():
     """d.items() ger nyckel-värde-par. Vad är typen på varje par?"""
     d = {"a": 1}
     pairs = list(d.items())
-    assert type(pairs[0]) == ____
+    assert type(pairs[0]) == tuple
 
 
 def test_iterating_dict_yields_keys():
