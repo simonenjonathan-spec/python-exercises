@@ -59,7 +59,7 @@ def test_updating_key_does_not_increase_len():
     Vad är len(d) efter d = {"a": 1}; d["a"] = 2?"""
     d = {"a": 1}
     d["a"] = 2
-    assert len(d) == ____
+    assert len(d) == 1
 
 
 def test_pop_returns_value_of_removed_key():
