@@ -11,7 +11,7 @@ def test_type_of_integer_is_int():
 
 def test_integers_and_floats_have_different_types():
     """42 och 42.0 har samma värde. Är de av samma typ?"""
-    assert (type(42) == type(42.0)) == ____
+    assert (type(42) == type(42.0)) == False
 
 
 def test_cpython_caches_small_integers_so_they_share_identity():
