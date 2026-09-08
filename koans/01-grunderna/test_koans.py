@@ -31,7 +31,7 @@ def test_assignment_creates_a_reference_not_a_copy():
     a = [1, 2, 3]
     b = a
     b.append(4)
-    assert len(a) == ____
+    assert len(a) == 4
 
 
 def test_slice_creates_a_new_list_object():
