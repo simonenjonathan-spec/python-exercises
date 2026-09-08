@@ -6,7 +6,7 @@ from sentinel import ____
 
 def test_empty_list_is_falsy():
     """Tomma samlingar är falsy i Python. Är [] sant eller falskt?"""
-    assert bool([]) == ____
+    assert bool([]) == False
 
 
 def test_nonempty_list_is_truthy_even_with_falsy_element():
