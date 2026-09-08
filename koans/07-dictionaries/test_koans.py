@@ -73,7 +73,7 @@ def test_pipe_merges_dicts_into_new_dict():
     """| skapar en ny dict med alla par från båda dictarna (Python 3.9+).
     Vilka nycklar innehåller {"a": 1} | {"b": 2}?"""
     result = {"a": 1} | {"b": 2}
-    assert set(result.keys()) == ____
+    assert set(result.keys()) == {"a", "b"}
 
 
 # === Dict comprehension ===
