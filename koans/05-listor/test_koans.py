@@ -30,7 +30,7 @@ def test_extend_mutates_the_list_in_place():
     Vad är längden på lst efter lst.extend([3, 4])?"""
     lst = [1, 2]
     lst.extend([3, 4])
-    assert len(lst) == ____
+    assert len(lst) == 4
 
 
 # === pop, sort och sorted ===
