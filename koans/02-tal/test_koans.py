@@ -7,7 +7,7 @@ from sentinel import ____
 def test_integer_division_returns_an_int():
     """// är heltalsdivision — resultatet trunkeras mot minus-oändligheten.
     Vilken typ returnerar 7 // 2?"""
-    assert type(7 // 2) == ____
+    assert type(7 // 2) == int
 
 
 def test_regular_division_always_returns_a_float():
