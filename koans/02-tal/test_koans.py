@@ -13,7 +13,7 @@ def test_integer_division_returns_an_int():
 def test_regular_division_always_returns_a_float():
     """/ är alltid float-division i Python 3 — även om båda operanderna är heltal.
     Vilken typ returnerar 7 / 2?"""
-    assert type(7 / 2) == ____
+    assert type(7 / 2) == float
 
 
 def test_double_star_is_the_exponentiation_operator():
