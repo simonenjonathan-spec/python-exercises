@@ -53,7 +53,7 @@ def test_pythonic_swap_without_temporary_variable():
 def test_tuples_support_concatenation():
     """+ konkatenerar tupler till en ny tupel.
     Vad returnerar (1, 2) + (3, 4)?"""
-    assert (1, 2) + (3, 4) == ____
+    assert (1, 2) + (3, 4) == (1, 2, 3, 4)
 
 
 def test_len_works_on_tuples():
