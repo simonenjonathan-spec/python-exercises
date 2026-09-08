@@ -62,7 +62,7 @@ def test_none_is_a_singleton():
     Pekar två variabler satta till None på exakt samma objekt?"""
     a = None
     b = None
-    assert (a is b) == ____
+    assert (a is b) == True
 
 
 def test_is_none_checks_identity_not_equality():
