@@ -64,4 +64,4 @@ def test_len_works_on_tuples():
 def test_tuple_with_immutable_elements_can_be_dict_key():
     """Tupler med immutabla element är hashbara och kan användas som dict-nycklar.
     Vad returnerar {(1, 2): "pos"}[(1, 2)]?"""
-    assert {(1, 2): "pos"}[(1, 2)] == ____
+    assert {(1, 2): "pos"}[(1, 2)] == "pos"
