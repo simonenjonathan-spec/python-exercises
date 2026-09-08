@@ -53,7 +53,7 @@ def test_abs_returns_the_absolute_value():
 def test_divmod_returns_a_tuple_of_quotient_and_remainder():
     """divmod(a, b) returnerar heltalsdivision och rest i ett enda anrop.
     Vilken datatyp är returvärdet?"""
-    assert type(divmod(17, 5)) == ____
+    assert type(divmod(17, 5)) == tuple
 
 
 def test_divmod_gives_correct_remainder():
