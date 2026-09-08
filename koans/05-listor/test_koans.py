@@ -66,7 +66,7 @@ def test_list_multiplication_shares_inner_object_references():
     Vad innehåller a[1] efter a = [[]] * 3; a[0].append(1)?"""
     a = [[]] * 3
     a[0].append(1)
-    assert a[1] == ____
+    assert a[1] == [1]
 
 
 # === Slice-tilldelning och metodnamn ===
