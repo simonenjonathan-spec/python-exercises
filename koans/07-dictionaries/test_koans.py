@@ -9,7 +9,7 @@ def test_missing_key_raises_keyerror():
     Vilken exception kastar d["b"] när "b" inte finns i d?"""
     import pytest
     d = {"a": 1}
-    with pytest.raises(____):
+    with pytest.raises(KeyError):
         d["b"]
 
 
