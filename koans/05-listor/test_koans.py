@@ -55,7 +55,7 @@ def test_sorted_does_not_change_original():
     Vad är lst[0] efter _ = sorted(lst)?"""
     lst = [3, 1, 2]
     _ = sorted(lst)
-    assert lst[0] == ____
+    assert lst[0] == 3
 
 
 # === Fallgrop: listmultiplikation delar inre objekt ===
