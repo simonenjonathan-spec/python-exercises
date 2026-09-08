@@ -58,4 +58,4 @@ def test_divmod_returns_a_tuple_of_quotient_and_remainder():
 
 def test_divmod_gives_correct_remainder():
     """divmod(17, 5) ger kvoten 3 och resten 2. Vad är resten (det andra elementet)?"""
-    assert divmod(17, 5)[1] == ____
+    assert divmod(17, 5)[1] == 2
