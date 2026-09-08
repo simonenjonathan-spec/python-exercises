@@ -63,7 +63,7 @@ def test_chained_assignment_binds_all_names_to_one_object():
     """x = y = z = 0 skapar ett objekt och binder alla tre namnen till det.
     Pekar x och y på exakt samma objekt?"""
     x = y = z = 0
-    assert (x is y) == ____
+    assert (x is y) == True
 
 
 def test_bool_is_a_subclass_of_int():
