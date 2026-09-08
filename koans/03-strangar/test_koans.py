@@ -17,7 +17,7 @@ def test_index_zero_is_the_first_character():
 def test_negative_index_counts_from_the_right():
     """Negativt index räknar från slutet: -1 är alltid sista tecknet.
     Vilket tecken är "python"[-1]?"""
-    assert "python"[-1] == ____
+    assert "python"[-1] == "n"
 
 
 def test_slice_extracts_a_substring():
