@@ -41,7 +41,7 @@ def test_strings_raise_typeerror_on_item_assignment():
 def test_strip_removes_surrounding_whitespace():
     """strip() tar bort blanktecken i början och slutet av strängen.
     Vad returnerar "  hej  ".strip()?"""
-    assert "  hej  ".strip() == ____
+    assert "  hej  ".strip() == "hej"
 
 
 def test_split_divides_string_at_separator():
