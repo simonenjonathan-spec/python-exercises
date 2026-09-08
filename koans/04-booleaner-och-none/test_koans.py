@@ -12,7 +12,7 @@ def test_empty_list_is_falsy():
 def test_nonempty_list_is_truthy_even_with_falsy_element():
     """En lista med ett element är truthy — oavsett vad elementet är.
     Är [0] sant eller falskt?"""
-    assert bool([0]) == ____
+    assert bool([0]) == True
 
 
 def test_zero_float_is_falsy():
