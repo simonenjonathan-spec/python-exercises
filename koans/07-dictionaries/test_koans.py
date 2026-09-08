@@ -66,7 +66,7 @@ def test_pop_returns_value_of_removed_key():
     """pop(nyckel) tar bort nyckeln och returnerar dess värde.
     Vad returnerar d.pop("a") när d = {"a": 99}?"""
     d = {"a": 99}
-    assert d.pop("a") == ____
+    assert d.pop("a") == 99
 
 
 def test_pipe_merges_dicts_into_new_dict():
