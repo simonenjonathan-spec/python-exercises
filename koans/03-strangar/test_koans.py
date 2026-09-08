@@ -61,7 +61,7 @@ def test_string_methods_return_new_strings_not_modify_original():
     Vad innehåller s efter att s.upper() anropats?"""
     s = "hej"
     _ = s.upper()
-    assert s == ____
+    assert s == "hej"
 
 
 def test_string_multiplication_repeats_content():
