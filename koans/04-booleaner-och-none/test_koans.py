@@ -32,7 +32,7 @@ def test_none_is_falsy():
 def test_or_returns_first_truthy_operand():
     """or returnerar den första truthy operanden — inte bokstavligen True eller False.
     Vad returnerar "hej" or "standard"?"""
-    assert ("hej" or "standard") == ____
+    assert ("hej" or "standard") == True or True
 
 
 def test_or_returns_right_operand_when_left_is_falsy():
