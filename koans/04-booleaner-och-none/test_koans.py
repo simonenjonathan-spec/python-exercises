@@ -69,4 +69,4 @@ def test_is_none_checks_identity_not_equality():
     """`is None` jämför identitet och kan inte åsidosättas av __eq__.
     Vad returnerar x is None när x = None?"""
     x = None
-    assert (x is None) == ____
+    assert (x is None) == True
