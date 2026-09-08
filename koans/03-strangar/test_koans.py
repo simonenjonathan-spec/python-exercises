@@ -31,7 +31,7 @@ def test_strings_raise_typeerror_on_item_assignment():
     Vilken exception kastar s[0] = "H" när s = "hej"?"""
     import pytest
     s = "hej"
-    with pytest.raises(____):
+    with pytest.raises(TypeError):
         s[0] = "H"
 
 
