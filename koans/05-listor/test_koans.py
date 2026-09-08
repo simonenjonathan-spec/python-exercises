@@ -14,7 +14,7 @@ def test_append_returns_none():
     """append() muterar listan på plats och returnerar ingenting nyttigt.
     Vad returnerar lst.append(4)?"""
     lst = [1, 2, 3]
-    assert lst.append(4) == ____
+    assert lst.append(4) == None
 
 
 def test_plus_creates_new_list_and_leaves_original_intact():
