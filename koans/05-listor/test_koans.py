@@ -47,7 +47,7 @@ def test_sort_mutates_the_list_in_place():
     """sort() sorterar listan på plats. Vad är det minsta värdet (lst[0]) efter sortering?"""
     lst = [5, 3, 1, 4, 2]
     lst.sort()
-    assert lst[0] == ____
+    assert lst[0] == 1
 
 
 def test_sorted_does_not_change_original():
