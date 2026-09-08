@@ -6,7 +6,7 @@ from sentinel import ____
 
 def test_len_counts_characters():
     """len() på en sträng returnerar antalet tecken. Vad returnerar len("hej")?"""
-    assert len("hej") == ____
+    assert len("hej") == 3
 
 
 def test_index_zero_is_the_first_character():
