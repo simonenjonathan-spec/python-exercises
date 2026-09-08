@@ -54,7 +54,7 @@ def test_none_is_not_equal_to_false():
     """None och False är båda falsy men de är inte lika värden.
     Vad returnerar x == False när x = None?"""
     x = None
-    assert (x == False) == ____
+    assert (x == False) == False
 
 
 def test_none_is_a_singleton():
