@@ -39,7 +39,7 @@ def test_round_uses_bankers_rounding():
 def test_int_truncates_toward_zero():
     """int() tar inte närmaste heltal — det kastar bort decimaldelen utan att avrunda.
     Vad returnerar int(3.9)?"""
-    assert int(3.9) == ____
+    assert int(3.9) == 3
 
 
 # === Övriga taloperationer ===
