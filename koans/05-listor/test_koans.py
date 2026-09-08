@@ -7,7 +7,7 @@ from sentinel import ____
 def test_slice_from_index_returns_tail():
     """s[start:] returnerar elementen från index start till slutet.
     Vad returnerar [1, 2, 3][1:]?"""
-    assert [1, 2, 3][1:] == ____
+    assert [1, 2, 3][1:] == [2, 3]
 
 
 def test_append_returns_none():
