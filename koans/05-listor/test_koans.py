@@ -91,4 +91,4 @@ def test_count_method_returns_number_of_occurrences():
     """count() räknar hur många gånger ett värde förekommer.
     Hur många gånger förekommer 2 i [1, 2, 2, 3, 2]?"""
     lst = [1, 2, 2, 3, 2]
-    assert lst.count(2) == ____
+    assert lst.count(2) == 3
