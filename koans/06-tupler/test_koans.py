@@ -26,7 +26,7 @@ def test_single_element_tuple_needs_trailing_comma():
 
 def test_parentheses_without_comma_is_not_a_tuple():
     """(42) är bara ett parentesuttryck, inte en tupel. Vad är typen av (42)?"""
-    assert type((42)) == ____
+    assert type((42)) == int
 
 
 # === Uppackning och swap ===
