@@ -53,7 +53,7 @@ def test_split_divides_string_at_separator():
 def test_join_concatenates_list_with_separator():
     """join() sätter ihop en lista av strängar med avgränsaren som lim.
     Vad returnerar ", ".join(["a", "b", "c"])?"""
-    assert ", ".join(["a", "b", "c"]) == ____
+    assert ", ".join(["a", "b", "c"]) == "a, b, c"
 
 
 def test_string_methods_return_new_strings_not_modify_original():
