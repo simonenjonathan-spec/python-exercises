@@ -69,4 +69,4 @@ def test_chained_assignment_binds_all_names_to_one_object():
 def test_bool_is_a_subclass_of_int():
     """bool är en underklass till int — True och False är heltal med extra beteende.
     Är True en instans av int?"""
-    assert isinstance(True, int) == ____
+    assert isinstance(True, int) == True
