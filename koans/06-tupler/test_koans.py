@@ -36,7 +36,7 @@ def test_unpacking_binds_names_positionally():
     """Tupeluppackning binder namnen till elementen positionellt från vänster.
     Vad är värdet av a efter a, b = (10, 20)?"""
     a, b = (10, 20)
-    assert a == ____
+    assert a == 10
 
 
 def test_pythonic_swap_without_temporary_variable():
