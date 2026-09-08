@@ -40,7 +40,7 @@ def test_slice_creates_a_new_list_object():
     a = [1, 2, 3]
     b = a[:]
     b.append(4)
-    assert len(a) == ____
+    assert len(a) == 3
 
 
 # === Övrigt ===
